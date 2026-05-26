@@ -11,7 +11,6 @@ permissions:
   id-token: write
 
 jobs:
-
   lint:
     runs-on: ubuntu-latest
 
@@ -25,7 +24,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Verify ESLint
         run: npx eslint -v
@@ -47,7 +46,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run Tests
         run: npm test
