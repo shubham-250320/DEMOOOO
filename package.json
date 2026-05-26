@@ -1,15 +1,21 @@
 {
   "name": "demoooo",
   "version": "1.0.0",
+  "description": "Simple JavaScript website with GitHub Actions CI/CD pipeline",
   "main": "script.js",
   "scripts": {
-    "test": "jest",
-    "lint": "eslint ."
+    "lint": "npx eslint .",
+    "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "github-actions",
+    "ci-cd",
+    "eslint",
+    "jest"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.4.0",
