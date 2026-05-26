@@ -10,10 +10,6 @@ export default [
         ...globals.node,
         ...globals.jest
       }
-    },
-
-    rules: {
-      semi: ["error", "always"]
     }
   }
 ];

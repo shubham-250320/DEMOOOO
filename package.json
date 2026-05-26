@@ -10,9 +10,7 @@
   "keywords": [
     "javascript",
     "github-actions",
-    "ci-cd",
-    "eslint",
-    "jest"
+    "ci-cd"
   ],
   "author": "",
   "license": "ISC",
